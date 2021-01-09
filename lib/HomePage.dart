@@ -51,11 +51,11 @@ class _MyHomePageState extends State<MyHomePage> {
     
       body: SafeArea(
         child : Container(
-        height: 500,
+        //height: 500,
         width: MediaQuery.of(context).size.width + 100,
         margin: EdgeInsets.only(top : 40),
 
-        child: Stack(
+        child: Column(
           children: <Widget>[
             CarouselSlider(
               items: imgf.map((imgURL){
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             Container(
-              margin: EdgeInsets.only(top : MediaQuery.of(context).size.width - 50),
+              margin: EdgeInsets.only(top : MediaQuery.of(context).size.width - 300),
               
               child : Center( 
                 child : ExpandableText(
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
 
             Container(
-              margin: EdgeInsets.only(top: MediaQuery.of(context).size.longestSide-150),
+              margin: EdgeInsets.only(top: 200),
               child: Row(
               children: <Widget>[
                 Container(
@@ -129,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
 
               Container(
-                width:  MediaQuery.of(context).size.width  / 2,
+               width:  MediaQuery.of(context).size.width  / 2,
                 child : FlatButton(
                   onPressed: (){
                     Share.share("Check this cool image at : \n$imgf[cur]");
