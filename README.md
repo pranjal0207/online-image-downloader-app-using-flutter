@@ -35,5 +35,6 @@ A Flutter project which allows user to browse through images on a server and dow
 
 ### Screenshots
 
-<img src = "screenshots/img1.png" width = 100 height = 100>
-![Screenshot1](screenshots/img1.png)
+<img src = "screenshots/img1.png" width = 300 height = 600>
+<img src = "screenshots/img2.png" width = 300 height = 600>
+<img src = "screenshots/img3.png" width = 300 height = 600>
