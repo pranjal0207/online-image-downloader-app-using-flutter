@@ -32,3 +32,6 @@ A Flutter project which allows user to browse through images on a server and dow
 2. Open the Repository in VS Code / Xcode / Android Studio.
 3. Navigate to lib/main.dart file
 4. Run the lib/main.dart file on an Android/iOS Emulator or an Android/iOS device using USB Debugging.
+
+### Screenshots
+![Screenshot1](screenshots/img1.png)
