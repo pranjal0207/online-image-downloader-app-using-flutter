@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936808776351",
+    "project_id": "image-downloader-eec73",
+    "storage_bucket": "image-downloader-eec73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936808776351:android:fbcb259f199c1cf427d8aa",
+        "android_client_info": {
+          "package_name": "com.example.image_downloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936808776351-ojdjuqi88tgj9qt9h97u8ha24uq2n3do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVjIq36n2N_wAZtNwggIOkV611J31T-hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936808776351-ojdjuqi88tgj9qt9h97u8ha24uq2n3do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
